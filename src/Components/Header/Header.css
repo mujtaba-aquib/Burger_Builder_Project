@@ -1,0 +1,44 @@
+/*
+ * File: Header.css
+ * Created: Wednesday, 7th July 2021 9:38:19 pm
+ * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
+ * -----
+ * Last Modified: Saturday, 10th July 2021 7:48:28 pm
+ * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
+ * -----
+ * Copyright (c) 2021 @quib_self
+ */
+
+.Navigation {
+    margin-bottom: 20px;
+}
+
+.Brand {
+    color: white;
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 30px;
+
+}
+
+.NavLink{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin-bottom:23px;
+    margin-right: 20px;
+
+
+}
+
+.NavLink:hover{
+    color: rgb(66, 60, 53);
+
+    text-decoration: none;
+}
+
+.active{
+    text-shadow: 1px 1px rgb(231, 205, 205);
+    color: rgb(105, 84, 230);
+
+}

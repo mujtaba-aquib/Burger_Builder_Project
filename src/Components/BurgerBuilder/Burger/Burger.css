@@ -1,0 +1,30 @@
+/*
+ * File: BUrger.css
+ * Created: Thursday, 8th July 2021 1:46:12 am
+ * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
+ * -----
+ * Last Modified: Saturday, 10th July 2021 6:53:42 pm
+ * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
+ * -----
+ * Copyright (c) 2021 @quib_self
+ */
+
+
+.Burger{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    overflow-y: scroll;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.Burger  ::-webkit-scrollbar{
+    display: none;
+}
+
+.Burger{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}

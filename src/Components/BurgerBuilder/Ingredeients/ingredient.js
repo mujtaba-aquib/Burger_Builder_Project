@@ -3,7 +3,7 @@
  * Created: Thursday, 8th July 2021 12:31:23 am
  * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
- * Last Modified: Thursday, 8th July 2021 1:22:13 am
+ * Last Modified: Monday, 12th July 2021 11:14:26 pm
  * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
  * Copyright (c) 2021 @quib_self
@@ -20,11 +20,11 @@ import './ingredient.css';
 const Ingredient = props => {
 
     let ingredients = null;
-    console.log("Props call: ",props.type);
+    // console.log("Props call: ",props.type);
     switch (props.type) {
         case 'top':
             ingredients = <div> <img src={BreadTop} alt="Top Bread" /> </div>
-            console.log("Ingredients call: ", props.type);
+            //console.log("Ingredients call: ", props.type);
             break;
         case 'bottom':
             ingredients = <div> <img src={BreadBottom} alt="Bottom Bread" /> </div>
@@ -34,7 +34,6 @@ const Ingredient = props => {
             break;
         case 'salad':
             ingredients = <div> <img src={Salad} alt="Salad" /> </div>
-            console.log("Ingredients call: ", props.type);
             break;
         case 'cheese':
             ingredients =<div> <img src={Cheese} alt="Cheese" /> </div>

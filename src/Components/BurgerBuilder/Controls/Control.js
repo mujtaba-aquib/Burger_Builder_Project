@@ -3,7 +3,7 @@
  * Created: Thursday, 8th July 2021 2:04:08 am
  * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
- * Last Modified: Saturday, 10th July 2021 8:25:22 pm
+ * Last Modified: Monday, 12th July 2021 11:15:05 pm
  * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
  * Copyright (c) 2021 @quib_self
@@ -23,6 +23,7 @@ let controls = [
 
 
 const BuildControl = props => {
+
     return (
         <div className="d-flex " style={{
             backgroundColor: "whitesmoke",
@@ -31,7 +32,7 @@ const BuildControl = props => {
             fontSize: "1.2rem",
             fontWeight: "bold"
         }}>
-            <button className="btn btn-danger btn-sm m-1 p-3" onClick={props.removed }> - </button>
+            <button className="btn btn-danger btn-sm m-1 p-3" onClick={props.removed}> - </button>
             <div className="m-auto ">{ props.label}</div>
             <button className="btn btn-success btn-sm m-1 p-3" onClick={props.added}> + </button>
         </div>
@@ -59,9 +60,11 @@ const Control = props => {
                     {
                         controls.map(item => {
                             return (
-                                <BuildControl label={item.label} type={item.type}
+                                <BuildControl label={item.label} type={item.type} key={Math.random()}
                                     added={() => props.ingredientsAdded(item.type)}
-                                    removed={() => props.ingredientsRemoved(item.type)}
+                                    removed={() => {
+                                        props.ingredientsRemoved(item.type)
+                                    }}
                                 />)
                         })
                 }

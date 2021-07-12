@@ -3,7 +3,7 @@
  * Created: Thursday, 8th July 2021 12:26:18 am
  * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
- * Last Modified: Thursday, 8th July 2021 2:11:24 am
+ * Last Modified: Saturday, 10th July 2021 11:19:31 pm
  * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
  * Copyright (c) 2021 @quib_self
@@ -19,7 +19,7 @@ const Burger = props => {
     let ingredientArr = props.ingredients.map(item => {
         let amountArr = [...Array(item.amount).keys()]
         return amountArr.map(_ => {
-            return <Ingredients type={item.type} />
+            return <Ingredients type={item.type} key={Math.random()} />
         })
     })
         .reduce((arr, element) => {

@@ -3,7 +3,7 @@
  * Created: Wednesday, 7th July 2021 9:38:19 pm
  * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
- * Last Modified: Saturday, 10th July 2021 7:48:28 pm
+ * Last Modified: Monday, 12th July 2021 10:38:19 pm
  * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
  * Copyright (c) 2021 @quib_self
@@ -27,18 +27,19 @@
     font-size: 25px;
     margin-bottom:23px;
     margin-right: 20px;
+    font-family: cursive;
+    font-weight: bold;
 
 
 }
 
 .NavLink:hover{
     color: rgb(66, 60, 53);
-
     text-decoration: none;
 }
 
 .active{
-    text-shadow: 1px 1px rgb(231, 205, 205);
-    color: rgb(105, 84, 230);
+    text-shadow: 1px 1px rgb(102, 13, 13);
+    color: rgb(233, 145, 45);
 
 }

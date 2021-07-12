@@ -3,7 +3,7 @@
  * Created: Wednesday, 7th July 2021 9:08:54 pm
  * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
- * Last Modified: Saturday, 10th July 2021 7:39:09 pm
+ * Last Modified: Monday, 12th July 2021 11:36:56 pm
  * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
  * Copyright (c) 2021 @quib_self
@@ -16,6 +16,7 @@ import Orders from './Orders/Orders.js';
 import Checkout from './Orders/Checkout/Checkout'
 
 import { Route } from 'react-router-dom';
+import Footer from './Footer/Footer.js';
 
 
 const MainComponent = props => {
@@ -28,6 +29,7 @@ const MainComponent = props => {
                 <Route path="/checkout" component={Checkout} />
                 <Route path="/" exact component={BurgerBuilder}/>
             </div>
+            <Footer/>
         </div>
 
     )

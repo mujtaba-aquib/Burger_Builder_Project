@@ -3,7 +3,7 @@
  * Created: Monday, 12th July 2021 11:34:06 pm
  * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
- * Last Modified: Tuesday, 13th July 2021 1:49:55 am
+ * Last Modified: Tuesday, 13th July 2021 2:28:32 am
  * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
  * Copyright (c) 2021 @quib_self
@@ -24,10 +24,10 @@ const Footer = (props) => {
                     <div class="row">
                         <div class="col text-center">
                             <div class="foot-circle">
-                                <FontAwesomeIcon icon={faFacebook} />
+                                <a href="/"><FontAwesomeIcon icon={faFacebook} /></a>
                             </div>
                             <div class="foot-circle">
-                                <FontAwesomeIcon icon={faGoogle} />
+                                <a href="/"><FontAwesomeIcon icon={faGoogle} /></a>
                             </div>
                         </div>
                     </div>

@@ -3,7 +3,7 @@
  * Created: Tuesday, 13th July 2021 12:29:41 am
  * Author: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
- * Last Modified: Tuesday, 13th July 2021 1:59:06 am
+ * Last Modified: Tuesday, 13th July 2021 10:17:26 pm
  * Modified By: Aquib Mujtaba (aquib.pust13@gmail.com)
  * -----
  * Copyright (c) 2021 @quib_self
@@ -32,15 +32,18 @@
 	border-radius: 100%;
 	display: inline-block;
 	text-align: center;
-	background-color: #eaedf3;
+	background-color: white;
 	font-size: 32px;
-	color: #D70F64;
+	/* color: #D70F64; */
 	margin: 5px;
-
+	text-decoration: none;
 }
 
 .foot-circle:hover {
-
+	text-decoration: none;
 	background-color: bisque;
 	color: #1c1c1f;
+}
+.foot-circle .a:hover{
+	text-decoration: none;
 }
